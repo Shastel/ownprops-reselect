@@ -1,4 +1,4 @@
-exports.ownPropsSelector = function(__, ownProps) {
+function ownPropsSelector(__, ownProps) {
   return ownProps;
 }
 
@@ -14,5 +14,5 @@ function ownPropSelectorCreator(name) {
   }
 }
 
-exports.ownPropSelectorCreator = exports.ownPropSelectorCreator;
+exports.ownPropsSelector = ownPropsSelector;
 exports.ownProp = ownPropSelectorCreator;
