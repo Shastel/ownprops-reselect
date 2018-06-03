@@ -1,6 +1,6 @@
 {
-  "name": "own-props-selector",
-  "version": "0.0.3",
+  "name": "ownprops-reselect",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,8 @@
   "keywords": [
     "react",
     "redux",
-    "reselect"
+    "reselect",
+    "ownProps"
   ],
   "author": [{
       "name": "Maxim Shastel",
@@ -21,7 +22,7 @@
   }],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Shastel/own-props-selector/issues"
+    "url": "https://github.com/Shastel/ownprops-reselect/issues"
   },
-  "homepage": "https://github.com/Shastel/own-props-selector#readme"
+  "homepage": "https://github.com/Shastel/ownprops-reselect#readme"
 }
